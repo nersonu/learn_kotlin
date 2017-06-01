@@ -6,9 +6,10 @@ package cpa02
  *  同じ整数が複数回現れた場合は、これらを区別せよ。
  */
 
-val N = 10 /* 雑 */
+
 
 fun main(args: Array<String>) {
+  val N = 10 // 雑
   var numbers = MutableList<Int>(N, {(20*Math.random()-10).toInt()})
 
   print("input: ")
