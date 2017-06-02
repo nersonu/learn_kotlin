@@ -7,10 +7,10 @@ package cpa02
 
 fun main(args: Array<String>) {
   val N = 100 // 雑
-  var m = (N*Math.random()).toInt()
-  var n = (N*Math.random()).toInt()
+  val m = (N*Math.random()).toInt()
+  val n = (N*Math.random()).toInt()
 
-  println("gcd(${m}, ${n}): ${gcd(m, n)}")
+  println("gcd($m, $n): ${gcd(m, n)}")
 }
 
 fun gcd(m: Int, n: Int): Int {
