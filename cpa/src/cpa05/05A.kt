@@ -7,8 +7,8 @@ package cpa05
 
 fun main(args: Array<String>) {
   val N = 100 // 雑
-  val n = (N*Math.random()).toInt()
-  val m = (N*Math.random()).toInt()
+  var n = (N*Math.random()).toInt()
+  var m = (N*Math.random()).toInt()
 
   println("sum($n, $m): ${sum(n, m)}")
 }
